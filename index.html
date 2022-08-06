@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+
+
+</head>
+
+<body>
+  <main class="main-section">
+
+    <div class="box-title">
+      <h1 class="main-title">Learn to code by watching others</h1>
+
+      <p class="text">See how experienced developers solve problems in real-time. Watching scripted tutorials is
+        great,
+        but understanding how developers think is invaluable.</p>
+    </div>
+
+    <article class="container-form">
+      <h2 class="title">Try it free 7 days then $20/mo. thereafter</h2>
+
+      <form class="form" action="./index.html">
+
+        <div class="form-control ">
+          <input class="input" type="text" id="name" name="name" placeholder="Name" required>
+          <label for="name"></label>
+          <span class="input-msg-erro">First Name cannot be empty</span>
+        </div>
+
+        <div class="form-control">
+          <input class="input" type="text" name="lastname" id="lastname" placeholder="Last Name" required>
+          <label for="lastname"></label>
+          <span class="input-msg-erro">Last Name cannot be empty</span>
+        </div>
+
+        <div class="form-control">
+          <input class="input" type="email" name="email" id="email" placeholder="Email Address" required>
+          <label for="email"></label>
+          <span class="input-msg-erro">Email cannot be empty</span>
+        </div>
+
+        <div class="form-control">
+          <input class="input" type="password" id="password" name="password" placeholder="Password"
+            pattern="^(?=.*\d)(?=.*[a-zA-Z])(?!.*\s).{6,12}$"
+            title="Allowed to use numbers and letters, minimum characters from 6 to 12, without symbols"
+            required>
+          <label for="password"></label>
+          <span class="input-msg-erro">Password cannot be empty</span>
+        </div>
+
+        <button class="button"> Claim your free trial</button>
+        <h3 class="description">By clicking the button, you are agreeing to our <a class="terms">Terms and Services</a>
+        </h3>
+      </form>
+    </article>
+    <!--<footer>
+      <p class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer>-->
+  </main>
+  <script src="./js/index.js" type="module"></script>
+</body>
+
+</html>
