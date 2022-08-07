@@ -1,0 +1,12 @@
+@media screen and (max-width:680px){
+ .main-section{
+    flex-direction: column;
+    height: auto;
+ }
+ .box-title{
+    width: 90%;
+ }
+ .container-form{
+    width: 90%;
+ }
+}
