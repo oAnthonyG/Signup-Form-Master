@@ -47,6 +47,10 @@ body{
     color: var(--color-white-text);
     background-color: var(--color-blue-box);
 }
+.container-form span{
+    color:var(--color-grayish-blue);
+    font-weight: 500;
+}
 .form{
     display: flex;
     flex-direction: column;
