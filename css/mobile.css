@@ -5,8 +5,22 @@
  }
  .box-title{
     width: 90%;
+    text-align: center;
+ }
+ .box-title .main-title{
+    font-size:  1.7em;
+ }
+ .box-title .text{
+    font-size: 0.8em;
  }
  .container-form{
     width: 90%;
+ }
+ .container-form .title{
+    text-align: center;
+    font-size: 1em;
+ }
+ .description{
+    text-align: center;
  }
 }
